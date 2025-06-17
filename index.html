@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>william liang</title>
+
+  <!-- External styles & fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="timeline.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <style>
+    html {
+      scroll-behavior: smooth; /* enables smooth scrolling */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Particles background -->
+  <div id="tsparticles"></div>
+
+  <!-- Header + nav -->
+  <header class="header">
+    <a href="#" class="logo">william liang</a>
+    <nav class="navbar">
+      <a href="#home" style="--i:1;" class="active">home</a>
+      <a href="#timeline" style="--i:2;">professional</a>
+      <a href="#projects" style="--i:3;">projects</a>
+    </nav>
+  </header>
+
+  <!-- Home section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>computer science & applied math @ brown</h1>
+      <h3>grinding as <span class="multiple-text"></span></h3>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/william-liang-5007552a9/" target="_blank" style="--i:5;">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/William-Liangg" target="_blank" style="--i:6;">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/__williamliang" target="_blank" style="--i:7;">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <a href="resume.pdf" class="btn" target="_blank">resume</a>
+    </div>
+    <div class="home-img">
+      <img src="home-icon.png" alt="Home Icon">
+    </div>
+  </section>
+
+  <!-- Timeline section -->
+  <div class="container" id="timeline">
+    <h2 class="section-title">work experience</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="company-name">mit lincoln laboratory rise</h3>
+          <h4 class="job-title">radar research intern</h4>
+          <p class="date-range">july 2024 - aug 2024</p>
+          <p class="job-description">
+            built radar using a printed circuit board; programmed radar gui with python; conducted and presented research to 150+ professionals at mit lincoln laboratory & mit museum.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">python</span>
+            <span class="tech-tag">numpy</span>
+            <span class="tech-tag">spyder</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="company-name">boston area research initiative</h3>
+          <h4 class="job-title">ai research intern</h4>
+          <p class="date-range">apr 2024 - sep 2024</p>
+          <p class="job-description">
+            created and conducted a healthcare survey for 120+ residents; presented a report on free, timely ai-based diagnosis with translation services.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">survey design</span>
+            <span class="tech-tag">ai</span>
+            <span class="tech-tag">community research</span>
+          </div>
+        </div>
+      </div>
+
+<div class="container" id="projects">
+    <h2 class="section-title">research & projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3 class="company-name">using synthetic gaussian noise to explore stochastic resonance in cancer subtype classification</h3>
+        <h4 class="job-title">ieee access</h4>
+        <p class="date-range">june 2024 - feb 2025</p>
+        <p class="job-description">
+            classified cancer tumors with 98% accuracy across 8 machine learners; added synthetic gaussian noise & feature selection; explored stochastic resonance in cancer classification; authored 9pp
+        </p>
+        <div class="tech-stack">
+          <span class="tech-tag">machine learning</span>
+          <span class="tech-tag">cancer classification</span>
+          <span class="tech-tag">tensorflow</span>
+          <span class="tech-tag">numpy</span>
+          <span class="tech-tag">python3</span>
+        </div>
+        <a href="https://ieeexplore.ieee.org/document/10876139" target="_blank" class="btn-no-slide" style="margin-top: 1rem;">view paper</a>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <!-- External scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
